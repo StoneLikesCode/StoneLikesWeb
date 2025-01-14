@@ -5,21 +5,85 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="portfolioStyle.css">
     <title>Portfolio - StoneLikesCode</title>
 </head>
 <body>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="resume.html">Resume</a>
-        <a href="contact.html">Contact</a>
-    </nav>
+    <div id="border">
+        <div id="btn-container">
+            <button class="btn cube cube-hover" type="button"id="home-btn" onclick="window.location.href='index.html';">
+                    <div class="bg-top">
+                        <div class="bg-inner"></div>
+                    </div>
+                    <div class="bg-right">
+                        <div class="bg-inner"></div>
+                    </div>
+                    <div class="bg">
+                        <div class="bg-inner"></div>
+                    </div>
+                    <div class="text">Home</div>
+                    </button>
+            <button class="btn cube cube-hover" type="button"id="about-btn">
+                <div class="bg-top">
+                    <div class="bg-inner"></div>
+                </div>
+                <div class="bg-right">
+                    <div class="bg-inner"></div>
+                </div>
+                <div class="bg">
+                    <div class="bg-inner"></div>
+                </div>
+                <div class="text">About</div>
+                </button>
+            <button class="btn cube cube-hover" type="button"id="resume-btn">
+                <div class="bg-top">
+                    <div class="bg-inner"></div>
+                </div>
+                <div class="bg-right">
+                    <div class="bg-inner"></div>
+                </div>
+                <div class="bg">
+                    <div class="bg-inner"></div>
+                </div>
+                <div class="text">Resume</div>
+                </button>
+            <button class="btn cube cube-hover" type="button"id="portfolio-btn" onclick="window.location.href='portfolio.html';">
+                <div class="bg-top">
+                    <div class="bg-inner"></div>
+                </div>
+                <div class="bg-right">
+                    <div class="bg-inner"></div>
+                </div>
+                <div class="bg">
+                    <div class="bg-inner"></div>
+                </div>
+                <div class="text">Portfolio</div>
+                </button>
+            <button class="btn cube cube-hover" type="button"id="contact-btn">
+                <div class="bg-top">
+                    <div class="bg-inner"></div>
+                </div>
+                <div class="bg-right">
+                    <div class="bg-inner"></div>
+                </div>
+                <div class="bg">
+                    <div class="bg-inner"></div>
+                </div>
+                <div class="text">Contact</div>
+                </button>
+        </div>
+
+        <div id="title"> Portfolio - StoneLikesCode </div>
+        
+        <div id="portfolio-msg-container">    
+            <div id="portfolio-msg-body">
+                <p>Check out my <a href="https://stonelikescode.github.io/UserRegistrationSite/" target="_blank">User Registration Project</a>!</p>
+                <p>Check out my <a href="https://stonelikescode.github.io/CalculatorApp/" target="_blank">Calculator App Project</a>!</p>
+                <p>Check out my <a href="https://stonelikescode.github.io/ButtonCounter/" target="_blank">Button Counter Project</a>!</p>
+            </div>
+            </div>
+    </div>
     <section id="portfolio">
-        <h1>Portfolio</h1>
-        <p>Check out my <a href="https://stonelikescode.github.io/UserRegistrationSite/" target="_blank">User Registration Project</a>!</p>
-        <p>Check out my <a href="https://stonelikescode.github.io/CalculatorApp/" target="_blank">Calculator App Project</a>!</p>
-        <p>Check out my <a href="https://stonelikescode.github.io/ButtonCounter/" target="_blank">Button Counter Project</a>!</p>
     </section>
 </body>
 </html>
