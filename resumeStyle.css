@@ -1,0 +1,238 @@
+body{ 
+    display: flex;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    margin: 0;
+    height: 100vh;
+    background-color: hsl(0, 0%, 86%);
+}
+#title{ 
+    color:hsl(0, 0%, 0%);
+    font-weight: bold;
+    font-size: 4vh;
+    margin: 10px;
+}
+#border{ 
+    align-items: center;    
+    margin: auto;
+    height: 75vh;
+    width: 150vh;
+    background-color: hsl(0, 0%, 100%);
+    color: white;
+    border-radius: 20px;
+}
+#btn-container{ 
+    top: 0; 
+    left: 0; 
+    background-color: hsl(0, 0%, 100%);
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-evenly; 
+    border-radius: 20px;
+}
+#home-msg-title{ 
+    color: hsl(0, 0%, 0%);
+    display: flex;
+    background-color: hsl(0, 0%, 95%);
+    width: 70vh;
+    height: 20vh;
+    margin: 5vh;
+    justify-content: center;
+    align-items: center;
+    font-size: 7vh;
+    font-weight: bold;
+    border-radius: 10px;
+}
+#home-msg-body{ 
+    color: hsl(0, 0%, 0%);
+    display: flex;
+    width: 70vh;
+    height: 20vh;
+    margin: 5vh;
+    border-radius: 10px;
+    font-family: sans-serif;
+    
+}
+.highlight{ 
+    color: hsl(123, 61%, 40%);
+}
+#home-btn{ 
+  color: hwb(0 4% 10%);
+}
+#home-btn .bg-top,
+#home-btn .bg-right,
+#home-btn .bg{
+  background-color: hwb(0 4% 10%); /* Change the background color */
+}
+#home-btn:hover .bg-inner{
+  background: hwb(0 4% 10%);
+}
+#home-btn:hover .bg-top,
+#home-btn:hover .bg-right,
+#home-btn:hover .bg{ 
+  background:hwb(0, 4%, 10%);
+}
+#home-btn:hover .bg-top,
+#home-btn:hover .bg-right,
+#home-btn:hover .bg{ 
+  background:hsl(0, 0%, 0%);
+}
+
+#about-btn {
+  color: hwb(27 0% 0%);
+}
+
+#about-btn .bg-top,
+#about-btn .bg-right,
+#about-btn .bg {
+  background-color: hwb(27 0% 0%);
+  /* Change the background color */
+}
+
+#about-btn:hover .bg-inner {
+  background: hwb(27 0% 0%);
+}
+
+#about-btn:hover .bg-top,
+#about-btn:hover .bg-right,
+#about-btn:hover .bg {
+  background: hsl(0, 0%, 0%);
+}
+
+#portfolio-btn{ 
+    color: hsl(199, 100%, 50%);
+}
+#portfolio-btn .bg-top,
+#portfolio-btn .bg-right,
+#portfolio-btn .bg{
+    background-color: hsl(199, 100%, 50%); /* Change the background color */
+}
+#portfolio-btn:hover .bg-inner{
+    background: hsl(199, 100%, 50%);
+}
+#portfolio-btn:hover .bg-top,
+#portfolio-btn:hover .bg-right,
+#portfolio-btn:hover .bg{ 
+    background:hsl(0, 0%, 0%);
+}
+
+#contact-btn{ 
+    color: hsl(59, 100%, 50%);
+}
+#contact-btn .bg-top,
+#contact-btn .bg-right,
+#contact-btn .bg{
+    background-color: hsl(59, 100%, 50%);
+}
+#contact-btn:hover .bg-inner{
+    background: hsl(59, 100%, 50%);
+}
+#contact-btn:hover .bg-top,
+#contact-btn:hover .bg-right,
+#contact-btn:hover .bg{ 
+    background:hsl(0, 0%, 0%);
+}
+
+/* From Uiverse.io by gagan-gv */ 
+.btn {
+  display: block;
+  padding: 0.7em 2em;
+  background: transparent;
+  outline: none;
+  border: 0;
+  color: #d4af37;
+  letter-spacing: 0.1em;
+  font-family: monospace;
+  font-size: 17px;
+  font-weight: bold;
+  cursor: pointer;
+  z-index: 1;
+  margin: 5px;
+}
+
+.cube {
+  position: relative;
+  transition: all 0.5s;
+}
+
+.cube .bg-top {
+  position: absolute;
+  height: 10px;
+  background: #d4af37;
+  bottom: 100%;
+  left: 5px;
+  right: -5px;
+  transform: skew(-45deg, 0);
+  margin: 0;
+  transition: all 0.4s;
+}
+
+.cube .bg-top .bg-inner {
+  bottom: 0;
+}
+
+.cube .bg {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  right: 0;
+  background: #d4af37;
+  transition: all 0.4s;
+}
+
+.cube .bg-right {
+  position: absolute;
+  background: #d4af37;
+  top: -5px;
+  z-index: 0;
+  bottom: 5px;
+  width: 10px;
+  left: 100%;
+  transform: skew(0, -45deg);
+  transition: all 0.4s;
+}
+
+.cube .bg-right .bg-inner {
+  left: 0;
+}
+
+.cube .bg-inner {
+  background: #28282d;
+  position: absolute;
+  left: 2px;
+  right: 2px;
+  top: 2px;
+  bottom: 2px;
+}
+
+.cube .text {
+  position: relative;
+  transition: all 0.4s;
+}
+
+.cube:hover .bg-inner {
+  background: #d4af37;
+  transition: all 0.4s;
+}
+
+.cube:hover .text {
+  color: #28282d;
+  transition: all 0.4s;
+}
+
+.cube:hover .bg-right,
+.cube:hover .bg,
+.cube:hover .bg-top {
+  background: #28282d;
+}
+
+.cube:active {
+  z-index: 9999;
+  animation: bounce 0.1s linear;
+}
+
+@keyframes bounce {
+  50% {
+    transform: scale(0.9);
+  }
+}

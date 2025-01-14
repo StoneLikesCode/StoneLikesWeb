@@ -55,22 +55,27 @@ body{
 .highlight{ 
     color: hsl(123, 61%, 40%);
 }
-#about-btn{ 
-    color: hwb(27 0% 0%);
+#home-btn{ 
+  color: hwb(0 4% 10%);
 }
-#about-btn .bg-top,
-#about-btn .bg-right,
-#about-btn .bg{
-    background-color: hwb(27 0% 0%); /* Change the background color */
+#home-btn .bg-top,
+#home-btn .bg-right,
+#home-btn .bg{
+  background-color: hwb(0 4% 10%); /* Change the background color */
 }
-#about-btn:hover .bg-inner{
-    background: hwb(27 0% 0%);
+#home-btn:hover .bg-inner{
+  background: hwb(0 4% 10%);
 }
-    #about-btn:hover .bg-top,
-    #about-btn:hover .bg-right,
-    #about-btn:hover .bg{ 
-        background:hsl(0, 0%, 0%);
-    }
+#home-btn:hover .bg-top,
+#home-btn:hover .bg-right,
+#home-btn:hover .bg{ 
+  background:hwb(0, 4%, 10%);
+}
+#home-btn:hover .bg-top,
+#home-btn:hover .bg-right,
+#home-btn:hover .bg{ 
+  background:hsl(0, 0%, 0%);
+}
 
 #resume-btn{ 
    color: hsl(91, 92%, 34%);
