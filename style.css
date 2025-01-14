@@ -1,9 +1,84 @@
 body{ 
-    background-color: hsl(112, 10%, 44%);
-    color: black;
+    display: flex;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    margin: 0;
+    height: 100vh;
+    background-color: hsl(0, 0%, 86%);
 }
-p{
-    font-size: 20px;
-    background-color: hsl(108, 6%, 58%);
-    width: 45vh;
+#title{ 
+    color:hsl(0, 0%, 0%);
+    font-weight: bold;
+    font-size: 4vh;
+    margin: 10px;
+}
+#border{ 
+    align-items: center;    
+    margin: auto;
+    height: 75vh;
+    width: 150vh;
+    background-color: hsl(0, 0%, 100%);
+    color: white;
+    border-radius: 20px;
+}
+#btn-container{ 
+    top: 0; 
+    left: 0; 
+    background-color: hsl(0, 0%, 100%);
+    padding: 10px 10px;
+    display: flex;
+    justify-content: flex-start; 
+    border-radius: 20px;
+}
+#home-msg-title{ 
+    color: hsl(0, 0%, 0%);
+    display: flex;
+    background-color: hsl(0, 0%, 95%);
+    width: 70vh;
+    height: 20vh;
+    margin: 5vh;
+    justify-content: center;
+    align-items: center;
+    font-size: 7vh;
+    font-weight: bold;
+    border-radius: 10px;
+}
+#home-msg-body{ 
+    color: hsl(0, 0%, 0%);
+    display: flex;
+    width: 70vh;
+    height: 20vh;
+    margin: 5vh;
+    border-radius: 10px;
+    font-family: sans-serif;
+    
+}
+.highlight{ 
+    color: hsl(123, 61%, 40%);
+}
+.refrence-btn{ 
+    margin: auto;
+    padding-bottom: 36vh;
+    display: inline-block;  
+    padding: 20px 40px;
+    background-color: hsl(0, 0%, 75%);
+    color: black;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    font-size: 3vh;
+}
+
+#about{ 
+    background-color: hwb(27 0% 0%);
+}
+#resume{ 
+    background-color: hsl(91, 91%, 41%);
+}
+#portfolio{ 
+    background-color: hsl(199, 100%, 50%);
+}
+#contact{ 
+    background-color: hsl(59, 100%, 50%);
 }
